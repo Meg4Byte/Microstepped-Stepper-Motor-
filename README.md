@@ -10,7 +10,7 @@ Simulation of a two phase stepper motor in MicroCap-12
 - [Usage Instructions](#usage-instructions)
    - [Open the Project](#open-the-project)
    - [Run the Simulation](#run-the-simulation)
-- [Contribution](#contribution)
+- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
   
