@@ -10,9 +10,8 @@ Simulation of a two phase stepper motor in MicroCap-12
 - [Usage Instructions](#usage-instructions)
    - [Open the Project](#open-the-project)
    - [Run the Simulation](#run-the-simulation)
-- [Contribution Guidelines](#contribution-guidelines)
+- [Contribution](#contribution)
 - [License](#license)
-- [Additional Information](#additional-information)
 - [Contact](#contact)
   
 ## Project Description
@@ -45,7 +44,22 @@ This project simulates a two-phase stepper motor with microstepping using MicroC
    - Click on the 'Analysis' button to start the transient analysis.
    - Observe the output waveforms for motor acceleration, velocity, torque, and angle.
 
+## Contributing
 
+ If you'd like to contribute to this project, please follow these guidelines:
+ 
+ Fork the repository on GitHub
+ 
+ Clone your forked repository to your local machine
+ 
+ Create a new branch for your feature or bug fix
+ 
+ Make your changes and commit them
+ 
+ Push your changes to your fork on GitHub
+ 
+ Create a pull request to submit your contribution
+ 
 ## License 
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute this code at your own discretion.
@@ -54,23 +68,3 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 For questions or feedback, feel free to reach out at petnenadd_d@uns.ac.rs .
 
-
-
-
-Contribution Guidelines
-
-Contributions are welcome! Please follow these steps to contribute:
-
-    Fork the repository.
-    Create a new branch: git checkout -b feature/your-feature-name.
-    Make your changes and commit them: git commit -m 'Add some feature'.
-    Push to the branch: git push origin feature/your-feature-name.
-    Open a pull request.
-
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-Additional Information
-
-    Real-Life Applications: Stepper motors are widely used in various applications such as 3D printers, CNC machines, and robotics. Understanding microstepping is crucial for precise motor control in these devices.
-    Hands-On Experience: This project is ideal for those new to control theory and motor physics, providing a practical approach to learning.
