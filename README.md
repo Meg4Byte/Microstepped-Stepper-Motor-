@@ -1,12 +1,10 @@
 # Stepper Motor Simulation with Microstepping in MicroCap12
 
 Simulation of a two phase stepper motor in MicroCap-12  
+
 <p align="center">
   <img src="https://github.com/Meg4Byte/Stepper-Motor-Simulation/assets/121357383/4b961d33-7b76-4248-8d65-e1425d1683c8">
 </p>
-
-
-
 
 ## Table of Contents
 
@@ -39,7 +37,7 @@ This project simulates a two-phase stepper motor with microstepping using MicroC
 
 2. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/stepper-motor-simulation.git
+   git clone https://github.com/Meg4Byte/Stepper-Motor-Simulation.git
 
 ## Usage Instructions
 
