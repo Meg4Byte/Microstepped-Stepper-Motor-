@@ -46,19 +46,19 @@ This project simulates a two-phase stepper motor with microstepping using MicroC
 
 ## Contributing
 
- If you'd like to contribute to this project, please follow these guidelines:
+ - If you'd like to contribute to this project, please follow these guidelines:
  
- Fork the repository on GitHub
+ - Fork the repository on GitHub
  
- Clone your forked repository to your local machine
+ - Clone your forked repository to your local machine
  
- Create a new branch for your feature or bug fix
+ - Create a new branch for your feature or bug fix
  
- Make your changes and commit them
+ - Make your changes and commit them
  
- Push your changes to your fork on GitHub
+ - Push your changes to your fork on GitHub
  
- Create a pull request to submit your contribution
+ - Create a pull request to submit your contribution
  
 ## License 
 
