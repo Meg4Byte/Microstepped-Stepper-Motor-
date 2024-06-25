@@ -1,5 +1,6 @@
 # Stepper Motor Simulation with Microstepping in MicroCap12
 
+Simulation of a two phase stepper motor in MicroCap-12  
 
 ## Table of Contents
 
