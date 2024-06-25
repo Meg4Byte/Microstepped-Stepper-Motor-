@@ -1,6 +1,12 @@
 # Stepper Motor Simulation with Microstepping in MicroCap12
 
 Simulation of a two phase stepper motor in MicroCap-12  
+<p align="center">
+  <img src="https://github.com/Meg4Byte/Stepper-Motor-Simulation/assets/121357383/4b961d33-7b76-4248-8d65-e1425d1683c8">
+</p>
+
+
+
 
 ## Table of Contents
 
@@ -43,6 +49,7 @@ This project simulates a two-phase stepper motor with microstepping using MicroC
  #### Run the Simulation:
    - Click on the 'Analysis' button to start the transient analysis.
    - Observe the output waveforms for motor acceleration, velocity, torque, and angle.
+   - Change in control signals , add load and observe the output.
 
 ## Contributing
 
