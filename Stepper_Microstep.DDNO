@@ -1,0 +1,190 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                     Dynamic DC of Stepper_Microstep                      ***
+***                            22-Jun-24 15:32:16                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node            Voltage  Node            Voltage  Node            Voltage 
+VA               5.000   VB           5.000E-050  TORQUE          -1.307p 
+VELOCITY        14.285u  ANGLE           14.285p  ACCEL           14.285  
+X1.2             0.000   X1.4             5.000   X1.X6.PINA    -324.623f 
+X1.X3.PINA      -0.005f  X1.X4.PINB      64.925n  X1.X3.PINB      -0.005f 
+X1.X5.PINA       4.545m  X1.X4.PINA      64.925n  X1.X5.PINB    -286.012p 
+X1.X7.PINB      -1.300p  X1.X6.PINB      22.026m  X1.X7.PINA      -7.151f 
+X1.X8.PINA      -1.307p  X1.X8.PINB      -0.143f  X1.X17.PINB    -50.000n 
+X1.20         -500.000m  X1.X18.PINB      1.714p  X1.X18.PINA     49.999n 
+X1.X19.PINA     49.997n  X1.X14.1        14.285u  X1.X15.1        14.285p 
+
+DC Operating Point Inductor Current
+===================================
+   Inductor     Current     Inductor     Current 
+X1.L1         -286.012p  X1.L2           22.026m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:              X1.R1          X1.R2          X1.R3      X1.X14.R1
+V                   -64.925n        -5.000        500.000m       -14.285u
+Power DC Terms:
+PD                    0.019f       110.132m        25.000u         0.204f
+
+DC Pin Currents:
+Ir                 -286.012p       -22.026m        50.000u       -14.285p
+
+Device Variables:
+tc1                   0.000          0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000          0.000 
+
+
+Instance:          X1.X15.R1
+V                   -14.285p
+Power DC Terms:
+PD                2.041E-028
+
+DC Pin Currents:
+Ir                   -0.014f
+
+Device Variables:
+tc1                   0.000 
+tc2                   0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:              X1.L1          X1.L2
+V                 5.000E-050         0.000 
+Power DC Terms:
+PS               -1.430E-059         0.000 
+
+DC Pin Currents:
+Il                 -286.012p        22.026m
+
+Device Variables:
+ic                    0.000          0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:           X1.X14.C       X1.X15.C
+V                    14.285u        14.285p
+Power DC Terms:
+PS                    0.000          0.000 
+
+DC Pin Currents:
+Ic                    0.000          0.000 
+
+Device Variables:
+ic                    0.000          0.000 
+
+
+
+Operating Point for Devices of Type Sample and Hold
+===================================================
+Instance:                 S4             S5
+V                     5.000      5.000E-050
+Power DC Terms:
+PG                  110.132m    -1.430E-059
+
+DC Pin Currents:
+ISource             -22.026m       286.012p
+
+
+
+Operating Point for Devices of Type S
+=====================================
+Instance:              X1.S1
+Using model:          X1.VCS
+Power DC Terms:
+PD                    2.500p
+
+DC Pin Currents:
+ISource              50.000u
+
+Condition:
+State                     ON
+
+
+
+Operating Point for Devices of Type Dependent Source
+====================================================
+Instance:          X1.X3.E1       X1.X4.E1      X1.X13.E1      X1.X14.G1
+V                   -0.005f        64.925n         1.714p       -14.285u
+Power DC Terms:
+PG               1.021E-019         0.019f         0.000        204.057u
+
+DC Pin Currents:
+ISource             22.026m      -286.012p         0.000         14.285 
+
+
+Instance:         X1.X14.E1      X1.X15.G1      X1.X15.E1      X1.X19.E1
+V                   14.285u       -14.285p        14.285p        14.285 
+Power DC Terms:
+PG                   0.000          0.204f         0.000          0.000 
+
+DC Pin Currents:
+ISource              0.000         14.285u         0.000          0.000 
+
+
+
+Operating Point for Devices of Type Function Source
+===================================================
+Instance:             X1.E2          X1.E3          X1.E4          X1.E5
+V                 -286.012p        22.026m        -0.143f      -324.623f
+Power DC Terms:
+PG                   0.000          0.000          0.000          0.000 
+
+DC Pin Currents:
+ISource              0.000          0.000          0.000          0.000 
+
+
+Instance:             X1.E6          X1.E8       X1.X1.E1       X1.X2.E1
+V                    4.545m      -500.000m        -0.005f        64.925n
+Power DC Terms:
+PG                   0.000         25.000u         0.000          0.000 
+
+DC Pin Currents:
+ISource              0.000         50.000u         0.000          0.000 
+
+
+Instance:          X1.X5.E1       X1.X6.E1       X1.X7.E1       X1.X8.E1
+V                   -1.300p        -7.151f        -1.307p        -1.307p
+Power DC Terms:
+PG                   0.000          0.000          0.000          0.000 
+
+DC Pin Currents:
+ISource              0.000          0.000          0.000          0.000 
+
+
+Instance:         X1.X17.E1      X1.X18.E1
+V                   49.999n        49.997n
+Power DC Terms:
+PG                   0.000          0.000 
+
+DC Pin Currents:
+ISource              0.000          0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:           X1.L1.V        X1.L2.V
+V                    0.000          0.000 
+Power DC Terms:
+PG                   0.000          0.000 
+
+DC Pin Currents:
+ISource           -286.012p        22.026m
+
+
