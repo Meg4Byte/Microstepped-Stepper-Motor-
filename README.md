@@ -60,7 +60,7 @@ This project simulates a two-phase stepper motor with microstepping using MicroC
     
   ![input_phases](https://github.com/Meg4Byte/Stepper-Motor-Simulation/assets/121357383/b40c2dbe-dbff-4007-80c4-fbe604bc5304)
 
-**Summary:** This image shows the microstepped sine and cosine input signals provided to the stepper motor. The signals are represented by the yellow and purple waveforms, which are phase-shifted by 90 degrees. The microstepping technique divides each step into smaller steps to achieve smoother motion and higher resolution.
+  **Summary:** This image shows the microstepped sine and cosine input signals provided to the stepper motor. The signals are represented by the yellow and purple waveforms, which are phase-shifted by 90 degrees. The microstepping technique divides each step into smaller steps to achieve smoother motion and higher resolution.
 
   - Velocity
     
