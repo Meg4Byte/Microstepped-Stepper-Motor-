@@ -50,6 +50,37 @@ This project simulates a two-phase stepper motor with microstepping using MicroC
    - Observe the output waveforms for motor acceleration, velocity, torque, and angle.
    - Change in control signals , add load and observe the output.
 
+## Waveforms
+
+<details> 
+
+  <summary><h2> Input signals and output Torque/Angle/Velocity/Acceleration  </h2></summary>
+
+  - Input Phases
+  - 
+  ![input_phases](https://github.com/Meg4Byte/Stepper-Motor-Simulation/assets/121357383/b40c2dbe-dbff-4007-80c4-fbe604bc5304)
+
+  - Velocity
+  - 
+  ![veloc](https://github.com/Meg4Byte/Stepper-Motor-Simulation/assets/121357383/9be0203d-021d-443e-b4f1-ad7e79ef76eb)
+
+  - Acceleration
+  - 
+  ![acc](https://github.com/Meg4Byte/Stepper-Motor-Simulation/assets/121357383/aef2d6c5-7b1c-4f15-a954-c99538c5c9ff)
+
+  - Acceleration , velocity and torque
+  - 
+  ![acc_vel_torq](https://github.com/Meg4Byte/Stepper-Motor-Simulation/assets/121357383/ffb8186b-9269-4274-884e-e28d8bfc6fe6)
+
+  - Angle
+  - 
+  ![steps](https://github.com/Meg4Byte/Stepper-Motor-Simulation/assets/121357383/c004b8a2-9b70-4474-bdf7-b5ef5e48a40e)
+
+<!--END_SECTION:activity-->
+
+</details>
+
+
 ## Contributing
 
  - If you'd like to contribute to this project, please follow these guidelines:
