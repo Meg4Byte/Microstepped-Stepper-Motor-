@@ -54,7 +54,7 @@ This project simulates a two-phase stepper motor with microstepping using MicroC
 
 <details> 
 
-  <summary><h2> Input signals and output Torque/Angle/Velocity/Acceleration  </h2></summary>
+  <summary><h2> Input signals and output Torque/Velocity/Acceleration  </h2></summary>
 
   - Input Phases
     
@@ -68,19 +68,11 @@ This project simulates a two-phase stepper motor with microstepping using MicroC
 
 **Summary:** This image focuses on the stepper motor's velocity output. The red waveform indicates the changes in velocity over time. This detailed view helps in analyzing the motor's speed characteristics and how well it maintains a steady state under microstepping control.
 
-  - Acceleration
-    
-  ![acc](https://github.com/Meg4Byte/Stepper-Motor-Simulation/assets/121357383/aef2d6c5-7b1c-4f15-a954-c99538c5c9ff)
-
   - Acceleration , velocity and torque
     
   ![acc_vel_torq](https://github.com/Meg4Byte/Stepper-Motor-Simulation/assets/121357383/ffb8186b-9269-4274-884e-e28d8bfc6fe6)
 
-**Summary:** This image depicts the stepper motor's output signals for torque, velocity, and acceleration. The top graph shows the torque, the middle graph displays the velocity, and the bottom graph represents the acceleration. These outputs are a result of the microstepped input signals and provide insight into the motor's dynamic performance.
-
-  - Angle
-
-  ![steps](https://github.com/Meg4Byte/Stepper-Motor-Simulation/assets/121357383/c004b8a2-9b70-4474-bdf7-b5ef5e48a40e)
+**Summary:** This image depicts the stepper motor's output signals for acceleration , velocity and torque,. The top graph shows the acceleration, the middle graph displays the velocity, and the bottom graph represents the torque. These outputs are a result of the microstepped input signals and provide insight into the motor's dynamic performance.
 
 <!--END_SECTION:activity-->
 
