@@ -10,6 +10,7 @@ Simulation of a two phase stepper motor in MicroCap-12
 
 - [Project Description](#project-description)
 - [Features](#features)
+- [Stepper Motor Macro Model](#stepper-motor-macro-model)
 - [Installation Instructions](#installation-instructions)
 - [Usage Instructions](#usage-instructions)
    - [Open the Project](#open-the-project)
@@ -30,6 +31,15 @@ This project simulates a two-phase stepper motor with microstepping using MicroC
 - Display output signals: motor acceleration, velocity, torque, and angle
 - Input signals: sine and cosine voltages for microstepping
 - Accurate simulation model of a stepper motor
+
+## Stepper Motor Macro Model
+
+<p align="center">
+
+  <img src="https://github.com/Meg4Byte/Stepper-Motor-Simulation/assets/121357383/0eabb931-155e-46fb-a5a2-9f9751ef8f10)">
+</p>
+
+A stepper motor macro model is a simplified representation of a stepper motor's behavior and characteristics. It captures the essential dynamics of the motor, such as step angle, torque, velocity enabling efficient simulation and analysis. This model helps in understanding how the motor responds to different input signals, particularly in applications requiring precise control of position and speed.
 
 ## Installation Instructions
 
